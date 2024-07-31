@@ -1,0 +1,16 @@
+.profile-page {
+  .content-ai {
+    display: flex;
+    justify-content: space-between;
+
+    height: 12rem;
+
+    .content-card {
+      border: 1px solid gray;
+      border-radius: 10px;
+
+      flex: 0 0 47%;
+    }
+  }
+
+}

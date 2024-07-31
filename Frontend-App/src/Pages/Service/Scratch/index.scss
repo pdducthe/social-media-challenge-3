@@ -1,0 +1,49 @@
+.scratch-page {
+  .back-btn-container {
+    display: flex;
+    justify-content: flex-start;
+    button {
+      border: none;
+      background-color: transparent;
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  //step1
+  .card-container {
+    button {
+      border: none;
+      background-color: transparent;
+    }
+  }
+  //step2
+  .form-wrapper {
+    margin-bottom: 1rem;
+    form {
+      display: flex;
+      flex-direction: column;
+      .btn-container {
+        width: 25rem;
+        height: 3rem;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+
+  .form-result{
+    display: flex;
+    justify-content: space-between;
+
+    .content-card{
+      border: 1px solid gray;
+      border-radius: 10px;
+      flex: 0 0 47%;
+    }
+  }
+}

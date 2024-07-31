@@ -1,0 +1,15 @@
+.service-page {
+  .card-container {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    a {
+      text-decoration: none;
+      .card {
+        width: 100%;
+      }
+    }
+  }
+}
